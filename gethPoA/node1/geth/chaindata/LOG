@@ -6,3 +6,39 @@
 12:59:59.277027 db@open done T·195.1744ms
 12:59:59.505121 db@close closing
 12:59:59.505121 db@close done T·0s
+=============== Aug 27, 2021 (CDT) ===============
+13:15:30.900716 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:15:30.900716 version@stat F·[] S·0B[] Sc·[]
+13:15:30.900716 db@open opening
+13:15:30.900716 journal@recovery F·1
+13:15:30.931411 journal@recovery recovering @1
+13:15:30.968746 memdb@flush created L0@2 N·15 S·1KiB "H\x8b\x99..\x80R\xfb,v8":"\xe3\xc6\xe2..\xd1\xd3<,v5"
+13:15:30.979720 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+13:15:31.117776 db@janitor F·3 G·0
+13:15:31.117776 db@open done T·217.0599ms
+17:06:04.491714 db@close closing
+17:06:04.493075 db@close done T·1.3612ms
+=============== Aug 27, 2021 (CDT) ===============
+17:07:32.267378 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:07:32.267903 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+17:07:32.268434 db@open opening
+17:07:32.268434 journal@recovery F·1
+17:07:32.688392 journal@recovery recovering @3
+17:07:32.752335 memdb@flush created L0@5 N·13 S·777B "Dat..ion,v17":"unc..own,v26"
+17:07:32.768721 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+17:07:32.902322 db@janitor F·4 G·0
+17:07:32.902322 db@open done T·633.8878ms
+17:17:56.290356 db@close closing
+17:17:56.291352 db@close done T·996.2µs
+=============== Aug 27, 2021 (CDT) ===============
+17:18:06.333960 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:18:06.334957 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+17:18:06.334957 db@open opening
+17:18:06.334957 journal@recovery F·1
+17:18:06.344928 journal@recovery recovering @6
+17:18:06.394841 memdb@flush created L0@8 N·48 S·2KiB "'\x06\xe4..\xd1Gw,v57":"\x99)=..\x14.\xe3,v55"
+17:18:06.409364 version@stat F·[3] S·4KiB[4KiB] Sc·[0.75]
+17:18:06.575721 db@janitor F·5 G·0
+17:18:06.575721 db@open done T·240.764ms
+19:24:28.969541 db@close closing
+19:24:28.969541 db@close done T·0s
