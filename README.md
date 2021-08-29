@@ -11,8 +11,8 @@ This is the application we will use to maintain your Ethereum accounts and condu
 ## Create Nodes
 Unzip the Geth CLI toolset and open a git bash(terminal) from the unzipped folder(I renamed my folder "gethPoA")
 
-![](Screenshots/1unzip_geth_alltools_folder.png)
-![](Screenshots/2open_terminal_in_unqipped_folder.png)
+![](Screenshots/1unzip_geth-alltools_folder.png)
+![](Screenshots/2open_terminal_in_unzipped_folder.png)
 
 - In git bash, run the following code to create your first node(node1). You will need to create a password, and SAVE THAT PASSWORD!
 
@@ -20,9 +20,9 @@ geth --datadir node1 account new
 
 - Your node will have a public address key and a secret key file automatically generated. SAVE THESE! I have listed mine below, but you should always keep your secret key file private. DO NOT SHARE WITH ANYONE OR ONLINE!
 
-Password: 1234
-Public address of the key:   0x4636FA8cd9b0287d1031312F36FBfc0f7773396b
-Path of the secret key file: node1\keystore\UTC--2021-08-27T03-27-56.842659500Z--4636fa8cd9b0287d1031312f36fbfc0f7773396b
+* Password: 1234
+* Public address of the key:   0x4636FA8cd9b0287d1031312F36FBfc0f7773396b
+* Path of the secret key file: node1\keystore\UTC--2021-08-27T03-27-56.842659500Z--4636fa8cd9b0287d1031312f36fbfc0f7773396b
 
 ![](Screenshots/3create_node1.png)
 
@@ -32,9 +32,9 @@ geth --datadir node2 account new
 
 - Once again, I have shared mine, but you should NEVER SHARE WITH ANYONE OR ONLINE!
 
-Password: 0987
-Public address of the key:   0x6007BEe74Bc3896079314B93bfa2Ee22f5509741
-Path of the secret key file: node2\keystore\UTC--2021-08-27T03-31-01.280518400Z--6007bee74bc3896079314b93bfa2ee22f5509741
+* Password: 0987
+* Public address of the key:   0x6007BEe74Bc3896079314B93bfa2Ee22f5509741
+* Path of the secret key file: node2\keystore\UTC--2021-08-27T03-31-01.280518400Z--6007bee74bc3896079314b93bfa2ee22f5509741
 
 ![](Screenshots/4create_node2.png)
 
@@ -87,7 +87,7 @@ Now, let's unlock node1 so it can begin mining as well as trying to communicate 
 
 Once it has a second to start running, there will be a blank row. Type in your password for node1(1234) and press enter to begin actively mining.
 
-![](11unlock_node1.png)
+![](Screenshots/11unlock_node1.png)
 
 While node1 is still running on your first git bash, open a second git bash from you unzipped gethPoA folder.
 Enter in the following code, with some minor adjustments. In the first set of quotation marks, enter in your public address key for node2(withouth the beginning "0x") and then look back into the first git bash, just above where it states that it is looking for peers and you will see self=enode://...
@@ -97,7 +97,7 @@ Copy the enode address and paste the contents of the 2nd quotation marks with yo
 
 Again, once it has a second to start running, there will be another blank row. Type in your password for node2(0987) and press enter to begin actively mining.
 
-![](Screenshots/11unlock_node2.png)
+![](Screenshots/12unlock_node2.png)
 
 ## MyCrypto setup poa1 network
 Open the MyCrypto application
@@ -112,7 +112,7 @@ Find the endpoint from node1 which will be toward the top of your 1st git bash t
 - Setup a custom node. You will need your ChainID as well as the endpoint we just copied from the git bash running node1.
 - For the URL, enter http:// followed by your endpoint.
 
-![](Screenshots/15Setup_Custom_node.png)
+![](Screenshots/15Setup_Custom_Node.png)
 
 Now on that left hand side, scroll down until you find your new poa1 network and select it so that we are now running on our Proof of Authority network, and not the Ethereum main net.
 
@@ -151,4 +151,5 @@ You might have to refresh from the "pending" stage. The transaction will become 
 
 ![](Screenshots/23Review_Successful_Transaction.png)
 
-## Congratulations! You have successfuly built your own Proof of Authority network and sent Ethereum from one node to another!
+## Congratulations! 
+### You have successfuly built your own Proof of Authority network and sent Ethereum from one node to another!
