@@ -75,3 +75,18 @@ Copy the enode address and paste the contents of the 2nd quotation marks with yo
 Again, once it has a second to start running, there will be another blank row. Type in your password for node2(0987) and press enter to begin actively mining.
 ![](Screenshots/11unlock_node2.png)
 
+# MyCrypto setup poa1 network
+Open the MyCrypto application
+![](Screenshots/13Open_MyCrypto.png)
+
+Find the endpoint from node1 which will be toward the top of your 1st git bash terminal and copy it to your clipboard
+![](Screenshots/14Find_endpoint_from_node1.png)
+
+Back on the MyCrypto app, on the left hand side, click the option to "Change Network"
+Setup a custom node. You will need your ChainID as well as the endpoint we just copied from the git bash running node1.
+For the URL, enter http:// followed by your endpoint.
+![](Screenshots/15Setup_Custom_node.png)
+
+Now on that left hand side, scroll down until you find your new poa1 network and select it so that we are now running on our Proof of Authority network, and not the Ethereum main net.
+![](Screenshots/16Switch_to_poa1_Network.png)
+
