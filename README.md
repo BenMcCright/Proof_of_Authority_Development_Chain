@@ -98,3 +98,22 @@ Select the keystore file that is found in your unzipped gethPoA folder > node1 >
 Then enter the password for node1(1234) and click "Unlock"
 ![](Screenshots/18Enter_node1_Password.png)
 
+# Sending Ethereum from node1 to node2
+If you are not automatically directed to the following screen, click View & Send on the left hand side of the MyCrypto app.
+We are currently signed in as node1, so enter the public address key of node2 as the "To Address"
+Specify the amount and designation(ETH) that you want to send and click "Send Transaction"
+![](Screenshots/19Set_Transaction_Details.png)
+
+Review the details of the transaction you are about to submit. If it all looks good, select "Send"
+![](Screenshots/20Confirm_Transaction.png)
+
+A green bar will appear at the bottom of the MyCrypto app, click on "Check TX Status"
+![](Screenshots/21Check_TX_Status.png)
+
+You will be prompted to log out. Click "Logout"
+![](Screenshots/22Logout.png)
+
+You might have to refresh from the "pending" stage. The transaction will become complete, and you can review your successful transaction.
+![](Screenshots/23Review_Successful_Transaction.png)
+
+## Congratulations! You have successfuly built your own Proof of Authority network and sent Ethereum from one node to another!
