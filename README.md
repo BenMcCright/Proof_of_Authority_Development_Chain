@@ -75,7 +75,7 @@ Copy the enode address and paste the contents of the 2nd quotation marks with yo
 Again, once it has a second to start running, there will be another blank row. Type in your password for node2(0987) and press enter to begin actively mining.
 ![](Screenshots/11unlock_node2.png)
 
-# MyCrypto setup poa1 network
+## MyCrypto setup poa1 network
 Open the MyCrypto application
 ![](Screenshots/13Open_MyCrypto.png)
 
@@ -89,4 +89,12 @@ For the URL, enter http:// followed by your endpoint.
 
 Now on that left hand side, scroll down until you find your new poa1 network and select it so that we are now running on our Proof of Authority network, and not the Ethereum main net.
 ![](Screenshots/16Switch_to_poa1_Network.png)
+
+## Setting the Keystore in MyCrypto
+Back on the MyCrypto home page, select the Keystore File box in the middle of the bottom row.
+Select the keystore file that is found in your unzipped gethPoA folder > node1 > keystore
+![](Screenshots/17Select_Node1_Keystore.png)
+
+Then enter the password for node1(1234) and click "Unlock"
+![](Screenshots/18Enter_node1_Password.png)
 
